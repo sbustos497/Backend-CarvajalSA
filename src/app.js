@@ -1,8 +1,10 @@
 import express from "express";
+import cors from 'cors';
+
 import contactosRoutes from "./routes/contactos.routes.js";
 
 const app = express();
-const cors = require('cors');
+
 
 //middlewares
 app.use(express.json());
