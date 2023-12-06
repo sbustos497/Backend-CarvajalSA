@@ -1,5 +1,4 @@
 import express from "express";
-import cors from 'cors';
 
 import contactosRoutes from "./routes/contactos.routes.js";
 
@@ -15,10 +14,6 @@ app.use((req , res , next) => {
     });
 });
 
-app.use(cors({
-    origin: 'http://localhost:5173',
-    credentials: true,
-  }));
 
 app.use(contactosRoutes);
 
