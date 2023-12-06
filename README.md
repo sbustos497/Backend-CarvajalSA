@@ -18,6 +18,9 @@ _Direccion: VARCHAR(50)_
 
 En la carpeta Routes se encuentra contactos.routes.js un archivo que contiene los endpoints que utilizaremos para el CRUD de los contactos
 
+![image](https://github.com/sbustos497/Backend-CarvajalSA/assets/78486117/41e65cc6-e324-4e75-b170-3cb99a4c18e0)
+
+
 #Config.js
 ya que el .env contiene la URL del la base de datos asi como el nombre de la table para facilitar las cosas cree un .js el cual insrta las variables del .env en variables nuevas
 
@@ -37,3 +40,9 @@ DB_PASS= 12345678
 DB_HOST= localhost
 
 DB_PORT= 3306
+
+Despliegue
+
+Para en despliegue del backend utilize Render.com para interactuar con la base de datos en la nube
+
+Pagina Backend = https://node-practicas.onrender.com/contactos
